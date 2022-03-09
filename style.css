@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.control {
+  width: 48%;
+  padding: 5px;
+  margin-bottom: 15px;
+  
+}
+
+.control__item {
+  width: 100%;
+
+}
+.exchange__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 650px;
+  height: 400px;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 8px;
+}
+.exchange__symbols,
+.exchange__amounts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  fl
+}

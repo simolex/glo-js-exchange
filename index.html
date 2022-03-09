@@ -6,7 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exchange</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="oken.js"></script>
     <script defer src="main.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="exchange__layout">
+      <form action="#" class="exchange__form">
+        <div class="exchange__symbols">
+          <div class="control exchange__symbol-from">
+            <select class="control__item" name="symbol_from" id="symbol_from"></select>
+          </div>
+          <div class="control exchange__symbol-to">
+            <select class="control__item" name="symbol_to" id="symbol_to"></select>
+          </div>
+        </div>
+        <div class="exchange__amounts">
+          <div class="control exchange__amounts-from">
+            <input class="control__item" type="text" name="amount_from" id="amount_from" />
+          </div>
+          <div class="control exchange__amounts-to">
+            <input class="control__item" type="text" name="amount_to" id="amount_to" />
+          </div>
+        </div>
+        <button class="exchange__submit">Пересчитать</button>
+      </form>
+    </div>
+  </body>
 </html>
